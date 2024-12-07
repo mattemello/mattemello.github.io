@@ -1,7 +1,36 @@
-@font-face {
-    font-family: Tahoma, sans-serif;;
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cdd6f4;
+    background-color: #24273a;
 }
 
-*{
-    font-family: Tahoma, sans-serif;;
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    border-bottom-color: #181926;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.nav-bar-content {
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.repository {
+    display: flex;
+    justify-content: end;
+}
+
+.home,
+.blog,
+.project,
+.about {
+    margin: 5px;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
 }
