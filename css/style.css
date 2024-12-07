@@ -1,8 +1,7 @@
 @font-face {
- font-family: 'SourceCodePro-Black.otf';
- src: url(SourceCodePro-Black.otf.woff2) format('woff2');
+    font-family: Tahoma, sans-serif;;
 }
 
 *{
-
+    font-family: Tahoma, sans-serif;;
 }
