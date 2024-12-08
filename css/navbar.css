@@ -1,0 +1,42 @@
+.nav-bar {
+    border-bottom-color: #181926;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.nav-bar-content {
+    position: relative;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.repository {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.home:hover,
+.blog:hover,
+.project:hover,
+.about:hover {
+    cursor: pointer;
+}
+
+.home,
+.blog,
+.project,
+.about {
+    text-shadow: 0 0 3px #181825, 0 0 3px #181825;
+    margin: 10px 5px 10px 5px;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+}

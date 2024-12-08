@@ -1,3 +1,6 @@
+@import "foobar.css";
+@import "navbar.css";
+
 * {
     font-family: 'Courier New', Courier, monospace;
     color: #cdd6f4;
@@ -8,35 +11,13 @@ body {
     margin: 0;
 }
 
-.nav-bar {
-    border-bottom-color: #181926;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-}
 
-h1 {
 
+#body {
     margin-left: 23%;
     margin-right: 23%;
 }
 
-.nav-bar-content {
-    position: relative;
-    margin-left: 23%;
-    margin-right: 23%;
-}
-
-.repository {
-    display: flex;
-    justify-content: end;
-}
-
-.home:hover,
-.blog:hover,
-.project:hover,
-.about:hover {
-    cursor: pointer;
-}
 
 a:link {
     text-decoration: none;
@@ -52,16 +33,4 @@ a:hover {
 
 a:active {
     text-decoration: none;
-}
-
-.home,
-.blog,
-.project,
-.about {
-    font-size: 120%;
-    text-shadow: 0 0 3px #181825, 0 0 3px #181825;
-    margin: 10px 5px 10px 5px;
-    display: inline-block;
-    width: fit-content;
-    padding: 10px;
 }
